@@ -5,7 +5,7 @@ const Home = () => {
     const {user} = useFirebase()
     return (
         <div>
-            <span>{user?.displayName && user.displayName}</span>
+            <span className="text-xl text-zinc-500">Current User Name: {user? user.displayName : 'No body'}</span>
         </div>
     );
 };
