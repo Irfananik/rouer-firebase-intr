@@ -9,6 +9,9 @@ const Header = () => {
             </div>
             <div className="text-xl flex gap-4">
                 <NavLink className={({ isActive }) => isActive ? "text-gray-600" : "text-slate-400"} to='/home'>Home</NavLink>
+                <NavLink className={({ isActive }) => isActive ? "text-gray-600" : "text-slate-400"} to='/products'>Products</NavLink>
+                <NavLink className={({ isActive }) => isActive ? "text-gray-600" : "text-slate-400"} to='/order'>Order</NavLink>
+                <NavLink className={({ isActive }) => isActive ? "text-gray-600" : "text-slate-400"} to='/register'>Register</NavLink>
                 <NavLink className={({ isActive }) => isActive ? "text-gray-600" : "text-slate-400"} to='/login'>Login</NavLink>
             </div>
         </div>
